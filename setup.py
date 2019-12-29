@@ -11,6 +11,7 @@ setup(
                 'libraries/PJON/src/',
                 'libraries/ArduinoJson/src/'
                 ],
+            language_level=3,
             define_macros=[('LINUX', 1)]
             ))
         )

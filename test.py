@@ -1,4 +1,8 @@
 import moduleinterface.master as master
 
-link = master.PJONLink_ThroughSerialAsync()
-print(link.get_id())
+bus = master.PJONLink_ThroughSerialAsync()
+interfaces = master.PJONModuleInterfaceSet(bus, "Blink:b1:4", "m1");
+
+while True:
+    interfaces.update()
+    print('udpated')
