@@ -1,0 +1,15 @@
+[submodule "ModuleInterface/ModuleInterface"]
+	path = ModuleInterface/ModuleInterface
+	url = https://github.com/fredilarsen/ModuleInterface
+[submodule "ModuleInterface/PJON"]
+	path = ModuleInterface/PJON
+	url = https://github.com/gioblu/PJON
+[submodule "ModuleInterface/ArduinoJson"]
+	path = ModuleInterface/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson
+[submodule "moduleinterface/PJON-cython"]
+	path = moduleinterface/PJON-cython
+	url = https://github.com/xlfe/PJON-cython
+[submodule "libraries/ArduinoJson"]
+	path = libraries/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson
